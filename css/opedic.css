@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .list-terms-modern dd {
-  color: #0c2e8a;
+  color: #444;
 }
 
 .list-terms-modern dd a {
@@ -176,8 +176,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-content {
- /* background: url(../img/bg2.jpg) no-repeat top center;*/
+  /*background: url(../img/rawpixel-593598-unsplash.jpg) no-repeat top center;*/
   background-image: linear-gradient(to right top,rgb(25,182,143),rgb(68,100,148));
+  background-position: center;
   padding:130px 0 110px;
 }
 .intro-content.intro-nobg {
@@ -680,7 +681,7 @@ section.comments {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #444;
 }
 
 #contactus .contact-info a {
@@ -688,7 +689,10 @@ section.comments {
 }
 
 #contactus .contact-info a:hover {
-  color: #50d8af;
+  background: linear-gradient(to right top,rgb(25,182,143),rgb(68,100,148));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
 }
 
 #contactus .contact-address, #contactus .contact-phone, #contactus .contact-email {
@@ -761,7 +765,7 @@ section.comments {
 }
 
 .scroll-to-top:focus {
-  background: #50d8af;
+  background: linear-gradient(to right top,rgb(25,182,143),rgb(68,100,148));
   color: #fff;
   outline: none;
 }
