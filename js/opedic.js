@@ -16,26 +16,9 @@ jQuery(document).ready(function( $ ) {
   // Stick the header at top on scroll
   $("#header").sticky({topSpacing:0, zIndex: '50'});
 
-  // Intro background carousel
-  $("#intro-carousel").owlCarousel({
-    autoplay: true,
-    dots: false,
-    loop: true,
-    animateOut: 'fadeOut',
-    items: 1
-  });
-
   // Initiate the wowjs animation library
   new WOW().init();
 
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 } }
-  });
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
