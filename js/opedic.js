@@ -1,5 +1,22 @@
 jQuery(document).ready(function( $ ) {
 
+
+    $('.navbar-nav>li>a').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+
+
+    $(document).ready(function () {
+
+        // Hide/show animation hamburger function
+        $('.navbar-toggler').on('click', function () {
+
+            $('.hb-icon').toggleClass('open');
+
+        });
+
+    });
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -44,6 +61,7 @@ jQuery(document).ready(function( $ ) {
       target: '#mainNav',
       offset: 54
   });
+
 
 
 });
