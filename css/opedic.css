@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 .brand-icon-mobile {
-    width: 200px;
+    width: 258px;
     height: 88px;
     display: none;
 }
@@ -864,6 +864,13 @@ section.comments {
     background: #0c2e8a;
     color: #fff;
 }
+ 
+  a i.fa {  
+   display: block;  
+   text-align: center;  
+  }  
+
+
 
 .top-box {
     width: 90%;
